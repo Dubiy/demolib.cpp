@@ -1,5 +1,4 @@
 #include <iostream>
-// #include "things.h"
 
 namespace Gary
 {
@@ -7,7 +6,7 @@ namespace Gary
     {
         void sayHello()
         {
-            std::cout << "hello, Gary" << std::endl;
+            std::cout << "Hello, Demo lib" << std::endl;
         }
     }
 }
