@@ -21,6 +21,7 @@ add_library(${PROJECT_NAME} STATIC)
 target_sources(${PROJECT_NAME}
     PRIVATE
         src/garydu.cpp
+        src/visitorId.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
@@ -37,6 +38,7 @@ target_include_directories(${PROJECT_NAME}
 # without it public headers won't get installed
 set(public_headers
     include/garydu.h
+    include/visitorId.h
 )
 
 # not for MSVC
