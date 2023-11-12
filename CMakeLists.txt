@@ -45,7 +45,8 @@ set(public_headers
 if(CMAKE_COMPILER_IS_GNUCXX)
     # compile options for this target only
     # treat warnings as errors
-    target_compile_options(${PROJECT_NAME} PRIVATE -Werror)
+    target_compile_options(${PROJECT_NAME} PRIVATE)
+    # target_compile_options(${PROJECT_NAME} PRIVATE -Werror)
 endif()
 
 # where to find our CMake modules
